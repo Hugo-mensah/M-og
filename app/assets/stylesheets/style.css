@@ -18,3 +18,12 @@
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
+.titre-nv-heros {
+  padding: 1rem!important;
+  margin-top: 1rem!important;
+}
+
+.btn {
+  background-color: red;
+}
