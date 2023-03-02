@@ -15,9 +15,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_01_092510) do
   enable_extension "plpgsql"
 
   create_table "cards", force: :cascade do |t|
+    t.string "name"
     t.string "surname"
     t.string "pseudonym"
-    t.string "name"
     t.text "power"
     t.text "image"
     t.datetime "created_at", null: false
