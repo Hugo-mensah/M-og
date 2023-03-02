@@ -1,0 +1,16 @@
+.navbar {
+  background-color: black;
+  color: aliceblue;
+}
+
+.container-flui li a {
+  color: aliceblue;
+}
+
+.container-fluid a {
+  color: aliceblue;
+}
+
+.logo-mog {
+  background-color: red;
+}
