@@ -1,6 +1,7 @@
 .navbar {
   background-color: #202020;
   color: aliceblue;
+  padding: 1rem;
 }
 
 .container-flui li a {
@@ -12,5 +13,17 @@
 }
 
 .logo-mog {
-  background-color: #ED1D24;
+  background-color: red;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.titre-nv-heros {
+  padding: 1rem!important;
+  margin-top: 1rem!important;
+}
+
+.btn {
+  background-color: red;
 }
