@@ -1,6 +1,7 @@
 .navbar {
   background-color: black;
   color: aliceblue;
+  padding: 2rem;
 }
 
 .container-flui li a {
