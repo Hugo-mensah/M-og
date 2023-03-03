@@ -12,8 +12,8 @@ p {
   font-style: normal;
 }
 
-.nav-item {
-  align-items: center;
+.navbar-nav {
+  align-content: center;
 }
 
 .container-flui li a {
