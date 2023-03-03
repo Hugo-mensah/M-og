@@ -53,3 +53,7 @@ img {
 .cartes p {
   word-wrap: break-word;
 }
+
+.bouton-accueil {
+  display: flex;
+}
