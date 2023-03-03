@@ -27,7 +27,7 @@ p {
   text-decoration: underline;
 }
 
-.container-flui li a {
+.container-fluid li a {
   color: aliceblue;
 }
 
@@ -73,6 +73,10 @@ p {
 /* img {
   width: 100px;
 } */
+
+.img-fluid {
+  max-width: 40%;
+}
 
 .cartes {
   max-width: 350px;
