@@ -4,14 +4,14 @@
 
 <div class="case container" id="cards">
   <% @cards.each do |card| %>
-    <div class="cartes">
+    <div class="cartes row">
     <%= render card %>
     <p>
-    <%= link_to "Show this card", card %>
+    <%= link_to "Show this card", card , class:"btn btn-outline-danger"%>
   </p>
     </div>
 
   <% end %>
 </div>
 
-<%= link_to "Nouvelle carte", new_card_path %>
+<%= link_to "Nouvelle carte", new_card_path , class:"btn btn-outline-danger"%>

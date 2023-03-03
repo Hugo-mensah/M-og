@@ -37,14 +37,19 @@
 .case {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 img {
-  width: 40px;
+  width: 100px;
 }
 
 .cartes {
-  max-width: 300px;
+  max-width: 400px;
   padding: 3rem;
 
+}
+
+.cartes p {
+  word-wrap: break-word;
 }
