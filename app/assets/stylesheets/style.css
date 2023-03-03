@@ -17,6 +17,11 @@ p {
   align-content: center;
 }
 
+.nav-link {
+  color: #ED1D24;
+  text-decoration: underline;
+}
+
 .container-flui li a {
   color: aliceblue;
 }
