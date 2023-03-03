@@ -4,6 +4,11 @@ p {
   font-style: normal;
 }
 
+.bebas {
+    font-family: "bebas-neue-v14-deprecated", sans-serif;
+    font-size : 45px;
+}
+
 .navbar {
   background-color: #202020;
   color: aliceblue;
