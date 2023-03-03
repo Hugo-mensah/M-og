@@ -4,6 +4,14 @@
   padding: 1rem;
 }
 
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.nav-item {
+  align-items: center;
+}
+
 .container-flui li a {
   color: aliceblue;
 }
