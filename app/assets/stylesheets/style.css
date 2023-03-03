@@ -9,6 +9,11 @@ p, .neuzeit {
     font-size : 45px;
 }
 
+h1 {
+  font-family: "bebas-neue-v14-deprecated", sans-serif;
+    font-size : 65px;
+}
+
 .little-bebas {
   font-family: "bebas-neue-v14-deprecated", sans-serif;
   font-size : 25px;
