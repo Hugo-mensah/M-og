@@ -33,3 +33,18 @@
   color: aliceblue;
   opacity: 100%!important;
 }
+
+.case {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 40px;
+}
+
+.cartes {
+  max-width: 300px;
+  padding: 3rem;
+
+}
