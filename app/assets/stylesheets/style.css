@@ -1,4 +1,4 @@
-p {
+p, .neuzeit {
   font-family: "neuzeit-grotesk", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -7,6 +7,11 @@ p {
 .bebas {
     font-family: "bebas-neue-v14-deprecated", sans-serif;
     font-size : 45px;
+}
+
+.little-bebas {
+  font-family: "bebas-neue-v14-deprecated", sans-serif;
+  font-size : 25px;
 }
 
 .navbar {
@@ -20,6 +25,10 @@ p {
 
 .navbar-nav {
   align-content: center;
+}
+
+.nav-item {
+  font-size: 24px;
 }
 
 .nav-link:hover {
@@ -37,9 +46,9 @@ p {
 
 .logo-mog {
   background-color: #ED1D24;
-  padding: 5px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .container-fluid:hover {
