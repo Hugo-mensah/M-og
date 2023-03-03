@@ -26,10 +26,10 @@
               <%= link_to "Accueil", root_path, class: 'nav-link' %>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><%= link_to "Nouveau héros", new_card_path(@card)%></a>
+              <%= link_to "Nouveau héros", new_card_path(@card), class: 'nav-link' %>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><%= link_to "Tous les héros", cards_path%></a>
+              <%= link_to "Tous les héros", cards_path, class: 'nav-link' %></a>
             </li>
           </ul>
         </div>
