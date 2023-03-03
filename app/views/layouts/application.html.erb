@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link"><%= link_to "Accueil", new_card_path(@card)%></a>
+              <a class="nav-link"><%= link_to "Accueil", root_path %></a>
             </li>
             <li class="nav-item">
               <a class="nav-link"><%= link_to "Nouveau héros", new_card_path(@card)%></a>
@@ -33,7 +33,7 @@
         </div>
       </div>
     </nav>
-    <div class="mt-5">
+    <div class="mt-5 container">
       <%= yield %>
     </div>
 

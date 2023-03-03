@@ -1,6 +1,25 @@
-<p style="color: green"><%= notice %></p>
 
-<%= render @card %>
+
+<%= image_tag @card.image, class: 'img-fluid' %>
+<p class="card-title">
+  <strong></strong>
+  <%= @card.surname %>
+</p>
+
+<p class="card-text">
+  <strong>Name:</strong>
+  <%= @card.name %>
+</p>
+
+<p class="card-text">
+  <strong>Pseudonym:</strong>
+  <%= @card.pseudonym %>
+</p>
+
+<p class="card-text">
+  <strong>Power:</strong>
+  <%= @card.power %>
+</p>
 
 <div>
   <%= link_to "Editer", edit_card_path(@card) , class:"btn btn-outline-danger"%> |

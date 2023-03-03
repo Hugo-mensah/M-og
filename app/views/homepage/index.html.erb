@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="M'OG" content="width=device-width, initial-scale=1.0">
-  <title>Accueil</title>
-</head>
-
 <div class="flex-homepage">
   <p clas="titre-homepage" >Bienvenue sur le blog coopératif des héros</p>
 </div>
 
-<div>
-  <div class="boutons-homepage">
-    <%= link_to "Nouveau héros", new_card_path(@card) , class:"boutonNewHero"%></a>
-    <%= link_to "Tous les héros", cards_path , class:"boutonTotalHero"%></a>
-  </div>
-<div>
-
-<body>
-
-</body>
-</html>
+<div class="boutons-homepage">
+  <%= link_to "Nouveau héros", new_card_path(@card) , class:"boutonNewHero"%></a>
+  <%= link_to "Tous les héros", cards_path , class:"boutonTotalHero"%></a>
+</div>

@@ -1,29 +1,9 @@
-  <div id="<%= dom_id card %>">
-
-
-    <p>
-      <strong>Surname:</strong>
-      <%= card.surname %>
-    </p>
-
-    <p>
-      <strong>Name:</strong>
-      <%= card.name %>
-    </p>
-
-    <p>
-      <strong>Pseudonym:</strong>
-      <%= card.pseudonym %>
-    </p>
-
-    <p>
-      <strong>Power:</strong>
-      <%= card.power %>
-    </p>
-
-    <p>
-      <strong>Image:</strong>
-      <%= image_tag card.image %>
-    </p>
-
+<div class="col-md-3">
+  <div class="card mb-4">
+    <%= image_tag card.image, class: 'img-fluid card-img-top' %>
+    <div class="card-body">
+      <p class="card-title"><%= card.surname %></p>
+      <%= link_to "Show this card", card , class:"btn btn-outline-danger stretched-link"%>
+    </div>
   </div>
+</div>

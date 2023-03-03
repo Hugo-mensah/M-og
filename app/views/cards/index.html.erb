@@ -2,15 +2,9 @@
 
 <h1>Cards</h1>
 
-<div class="case container" id="cards">
+<div class="row">
   <% @cards.each do |card| %>
-    <div class="cartes row">
     <%= render card %>
-    <p>
-    <%= link_to "Show this card", card , class:"btn btn-outline-danger"%>
-  </p>
-    </div>
-
   <% end %>
 </div>
 
