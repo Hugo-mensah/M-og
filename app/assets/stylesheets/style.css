@@ -45,7 +45,7 @@ img {
 }
 
 .cartes {
-  max-width: 400px;
+  max-width: 350px;
   padding: 3rem;
 
 }
@@ -54,3 +54,44 @@ img {
   word-wrap: break-word;
 }
 
+.bouton-accueil {
+  display: flex;
+}
+
+.flex-homepage {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding-bottom: 5rem;
+}
+
+.titre-homepage {
+  margin-top: 5rem!important;
+}
+
+.boutons-homepage {
+  display: flex;
+  justify-content: center;
+}
+.boutonNewHero {
+  /* display: flex;
+  justify-content: center; */
+  border: solid 1px black;
+  margin: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
+.boutonTotalHero {
+  /* display: flex;
+  justify-content: center; */
+  border: solid 1px black;
+  margin: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
