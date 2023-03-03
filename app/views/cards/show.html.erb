@@ -3,24 +3,31 @@
   <%= @card.pseudonym %>
 </p>
 
-<%= image_tag @card.image, class: 'img-fluid' %>
+<div class="card d-flex border border-0 rounded-0 mb-5 flex-row espace-top">
+<div class="row g-0 d-flex justify-content-between"></div>
+  <div class= "col md-5" >
+    <%= image_tag @card.image, class: 'img-fluid' %>
+  </div>
 
-<p class="card-text">
-  <strong>Prénom :</strong>
-  <%= @card.name %>
-</p>
+  <div class="col md-5">
+    <p class="card-text">
+      <strong>Prénom :</strong>
+      <%= @card.name %>
+    </p>
 
-<p class="card-text">
-  <strong>Nom :</strong>
-  <%= @card.surname %>
-</p>
+    <p class="card-text">
+      <strong>Nom :</strong>
+      <%= @card.surname %>
+    </p>
 
-<p class="card-text">
-  <strong>Pouvoirs :</strong>
-  <%= @card.power %>
-</p>
+    <p class="card-text">
+      <strong>Pouvoirs :</strong>
+      <%= @card.power %>
+    </p>
+  </div>
+</div>
 
-<div>
+<div class="fin-de-page">
   <%= link_to "Éditer", edit_card_path(@card) , class:"btn btn-outline-danger"%> |
   <%= link_to "Voir touts les héros", cards_path , class:"btn btn-outline-danger"%>
 

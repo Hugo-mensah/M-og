@@ -75,8 +75,8 @@ p {
 } */
 
 .img-fluid {
-  max-width: 40%;
-  width: 20%;
+  max-width: 60%;
+  width: 40%;
 }
 
 .cartes {
@@ -144,4 +144,16 @@ p {
   text-decoration: none;
   text-decoration-color: rgb(255, 255, 255);
   color: aliceblue;
+}
+
+.fin-de-page{
+  margin-bottom: 5rem;
+}
+
+.card-title {
+  margin-top: 5rem;
+}
+
+.espace-top {
+  margin-top: 5rem;
 }
