@@ -22,8 +22,8 @@
 </p>
 
 <div>
-  <%= link_to "Editer", edit_card_path(@card) , class:"btn btn-outline-danger"%> |
-  <%= link_to "Retour", cards_path , class:"btn btn-outline-danger"%>
+  <%= link_to "Éditer", edit_card_path(@card) , class:"btn btn-outline-danger"%> |
+  <%= link_to "Voir touts les héros", cards_path , class:"btn btn-outline-danger"%>
 
-  <%= button_to "Destroy this card", @card, method: :delete , class:"btn btn-outline-danger" %>
+  <%= button_to "Supprimer", @card, method: :delete , class:"btn btn-outline-danger mt-3" %>
 </div>
