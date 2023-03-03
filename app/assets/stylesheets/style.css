@@ -12,10 +12,6 @@ p {
   font-style: normal;
 }
 
-.navbar-collapse {
-  justify-content: space-between;
-}
-
 .nav-item {
   align-items: center;
 }
