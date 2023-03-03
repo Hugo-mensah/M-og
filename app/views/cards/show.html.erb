@@ -3,21 +3,21 @@
 <%= image_tag @card.image, class: 'img-fluid' %>
 <p class="card-title">
   <strong></strong>
-  <%= @card.surname %>
+  <%= @card.pseudonym, class: "mb-2" %>
 </p>
 
 <p class="card-text">
-  <strong>Name:</strong>
+  <strong>Prénom :</strong>
   <%= @card.name %>
 </p>
 
 <p class="card-text">
-  <strong>Pseudonym:</strong>
-  <%= @card.pseudonym %>
+  <strong>Nom :</strong>
+  <%= @card.surname %>
 </p>
 
 <p class="card-text">
-  <strong>Power:</strong>
+  <strong>Pouvoirs :</strong>
   <%= @card.power %>
 </p>
 
