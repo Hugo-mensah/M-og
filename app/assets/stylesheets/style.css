@@ -4,10 +4,6 @@
   padding: 1rem;
 }
 
-.navbar-collapse {
-  justify-content: space-between;
-}
-
 .nav-item {
   align-items: center;
 }
