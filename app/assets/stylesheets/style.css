@@ -26,10 +26,17 @@ p {
 }
 
 .logo-mog {
-  background-color: red;
+  background-color: #ED1D24;
   padding: 5px;
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.container-fluid:hover {
+  color:#ED1D24
+}
+.logo-mog:hover {
+  color: aliceblue !important;
 }
 
 .titre-nv-heros {
