@@ -17,7 +17,7 @@ p {
   align-content: center;
 }
 
-.nav-link {
+.nav-link:hover {
   color: #ED1D24;
   text-decoration: underline;
 }
