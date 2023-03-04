@@ -171,3 +171,12 @@ h1 {
 .espace-top {
   margin-top: 5rem;
 }
+
+.logo-footer {
+  font-family: "bebas-neue-v14-deprecated", sans-serif;
+  font-size: 100px;
+  background-color: #ED1D24;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
